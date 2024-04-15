@@ -25,7 +25,7 @@ def binary_search(sorted_lst, val):
     else:
         return f'{val} does not exist'
 
-my_list = [18, 54, 274, 31, 44, 23, 87, 96, 52, 74, 258, 412, 961, 24, 96]
+my_list = [18, 54, 274, 31, 44, 23, 87, 96, 52, 74, 258, 412, 961, 24, 96, 36]
 sorted_list = selection_sort(my_list)
 print(sorted_list)
 print(binary_search(sorted_list, 87))
